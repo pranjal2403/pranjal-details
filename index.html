@@ -1,0 +1,90 @@
+<!-- Objectives: 
+➝ To understand arrays in java script. 
+➝ To perform CRUD operations on array.
+➝ To use java script array functions.
+
+Multi dimensional arrays are one of the most important concept used in the real world. Multidimensional arrays are not directly provided in JavaScript. If we want to use anything which acts as a multidimensional array then we need to create a multidimensional array by using another one-dimensional array. So multidimensional arrays in JavaScript is known as arrays inside another array. 
+
+In this task we will be working on 2-dimensional product data, you have to create a 2-dimensional array of data and perform all the operations related to product page. 
+
+Complete the following sub-tasks .
+
+1. CREATE 
+Create a 2 dimensional array 
+Use the following image for reference to take user input and push data into array.
+Use inbuilt array methods 
+Make sure that all input boxes do not take unwanted values
+
+NOTE: Use java script, do not use object array, use for each loop.
+
+2.Display
+Now once the array is created display data in tabular format having following columns
+Selection (Add check boxes, this will be later used for deletion)
+Company name (From array)
+Model (From array)
+Memory (From array)
+Price (From array)
+Quantity (This will be updated later, use initial value 50 for each product)
+Rating (This will be updated later, use "Not rated yet" initially)
+
+ Note: You will be adding methods on events for the newly column used in this task, design accordingly. 
+
+ 3.SEARCHING
+
+ Add a drop down with following values, Select Field, Company, Model, Memory and Price 
+Add a text box that takes user input 
+Add a search button to search and display the product according to the the value selected from drop down and value entered in the input box
+For example: if "Company" is selected in drop down and "Samsung" is entered in text box (case in sensitive) then on clicking on search button a new table is displayed as per search.
+If item is not found a blank table should be displayed with only table headings. 
+
+NOTE: Search should be case insensitive.
+
+4. sorting
+
+Add two drop downs as shown in figure.
+First drop down will have three values, Sort(initially selected), Ascending and Descending. 
+Second drop down have five values, Sort by(initially selected), Company, Model, Memory and Price.
+A user can select either or both drop down and array should be sorted and displayed accordingly.
+If user changes any of the drop down the data should be sorted accordingly
+For example: if in first drop down "Ascending" is selected and in second drop down "Company" is selected and user changes second drop down to "Model" the table should be displayed sorted in ascending order according to "Model".
+
+5. DELETE
+A user can select one or more products from the table.
+Add a delete button.
+On clicking delete the data should be removed from original array.
+Then display updated data in place of original data. 
+
+6.UPDATION
+Inventory manager should be able to update the quantity of a products. 
+Use a drop down in which every value is a combination of "Company" and "Model".
+Use a text box to enter a non negative value.
+On clicking "Update" button update the quantity in original array.
+Display updated data
+
+Note: Make sure to apply proper validation
+
+7.BILL GENERATION
+Select product(s) from the list and their quantity. 
+Add them to a array then generate a billing invoice according to the attachment.
+Use a drop down in which every value is a combination of "Company" and "Model".
+On clicking add button make sure that the quantity entered is less than the quantity available.
+If the quantity available is less than quantity entered then display a proper error.
+If the quantity available is more than quantity entered update the available quantity in original array, also check if the item is already added the update its quantity accordingly.  
+On clicking generate bill display a proper invoice.
+
+8.PRODUCT RATING
+Customer should be able to mark the rating for a product that should be visible in the rating column.
+Use first drop down in which every value is a combination of "Company" and "Model".
+Use second drop down in which a user can select values from 1 to 5.
+On Clicking "Rate" button rating should be updated.
+
+9.FILTER USING RANGE
+Filter and display the products with in a given price range.
+Use 2 text box to enter minimum and maximum values.
+Display the data in a new table accordingly
+
+10.MOBILE FRIENDLY DESIGN
+Convert current design into mobile friendly design
+Use media query
+Take dimensions of iphone 12 pro for reference
+Follow BEM methodology  -->
